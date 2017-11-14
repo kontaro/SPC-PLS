@@ -22,7 +22,7 @@ public class listaComuna {
 	        //contador
 	        int contador = 0;
 	        while(linea != null){
-	        	comuna neueva=new comuna()
+	        	comuna nueva=new comuna();
 	        	String[] values = linea.split(",");
 	            //recorremos el arrar de string
 	            for (int i = 1; i<values.length; i++) {
