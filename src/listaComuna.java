@@ -8,6 +8,7 @@ public class listaComuna {
 	ArrayList<comuna> listaComunas=new ArrayList();
 	
 	public ArrayList<Integer> cobertura(){
+		//jejeje
 		return null;
 	}
 	
