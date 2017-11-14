@@ -5,7 +5,7 @@ public class comuna {
 	private int ID;
 	private int cost1;
 	private int cost2;
-	private ArrayList<Integer>cobertura= new ArrayList();
+	private ArrayList<Integer>cobertura= new ArrayList<Integer>();
 	
 	
 	public comuna(int ID,int cost1,int cost2){
@@ -51,6 +51,9 @@ public class comuna {
 		
 	}
 
+	public ArrayList<Integer> getCobertura() {
+		return this.cobertura;
+	}
 
 	public void setCobertura(ArrayList<Integer> cobertura) {
 		this.cobertura = cobertura;

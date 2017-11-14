@@ -5,11 +5,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class listaComuna {
-	ArrayList<comuna> listaComunas=new ArrayList();
+	ArrayList<comuna> listaComunas=new ArrayList<comuna>();
 	
 	public ArrayList<Integer> cobertura(){
-		//jejeje
-		return null;
+		ArrayList<Integer> ret=new ArrayList<Integer>();
+		for(comuna item:listaComunas){
+			ArrayList<Integer> cob= item.getCobertura();
+			for(int i=0; i<cob.size();i++){
+				ret.add(cob.get(i));
+			}
+		}
+		return ret;
 	}
 	
 	public void readTxt(){
