@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class listaComuna {
 	ArrayList<comuna> listaComunas=new ArrayList();
 	
-	public ArrayList<> cobertura(){
-		
+	public ArrayList<Integer> cobertura(){
+		return null;
 	}
 	
 	public void readTxt(){
