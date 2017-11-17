@@ -3,12 +3,15 @@ import java.util.ArrayList;
 public class comuna {
 
 	private int ID;
-	private int cost1;
-	private int cost2;
+	private float cost1;
+	private float cost2;
 	private ArrayList<Integer>cobertura= new ArrayList<Integer>();
 	
 	
-	public comuna(int ID,int cost1,int cost2){
+	public comuna(){
+		
+	}
+	public comuna(int ID,float cost1,float cost2){
 		this.ID=ID;
 		this.cost1=cost1;
 		this.cost2=cost2;
@@ -26,7 +29,7 @@ public class comuna {
 	}
 
 
-	public int getCost1() {
+	public float getCost1() {
 		return cost1;
 	}
 
@@ -36,7 +39,7 @@ public class comuna {
 	}
 
 
-	public int getCost2() {
+	public float getCost2() {
 		return cost2;
 	}
 
